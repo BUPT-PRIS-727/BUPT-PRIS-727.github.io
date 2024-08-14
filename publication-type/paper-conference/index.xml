@@ -23,6 +23,26 @@
     </item>
     
     <item>
+      <title>Attention based Long Short-Term Memory Network for Coastal Visibility Forecast</title>
+      <link>https://BUPT-PRIS-727.github.io/publications/attention-based-long-short-term-memory-network-for-coastal-visibility-forecast/</link>
+      <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://BUPT-PRIS-727.github.io/publications/attention-based-long-short-term-memory-network-for-coastal-visibility-forecast/</guid>
+      <description>&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;
+&lt;p&gt;Visibility prediction in coastal areas has always been an important issue affecting the safety of residents and the efficiency of urban transportation. The visibility prediction methods currently used by meteorological centers are mainly based on the statistical forecast with relatively low prediction accuracy and high computational complexity. These methods cannot work well with large amounts of data. However, with the rapid development of deep learning technology, the use of deep learning has become a primary trend. In this paper, we propose our visibility prediction model based on (Long Short-Term Memory) LSTM network and self-attention mechanism. The model takes Medium-range Forecasts Data from European Centre for Mediumrange Weather Forecasting (ECMWF) which we use EC data to refer it for simplicity and observatory visibility data as input to predict and uses the LSTM network as the backbone to extract time series information. We also use self-attention mechanism to process the input data before the data is input to the model to let the model better focus on the valuable information for prediction. Compared with the predicted visibility in EC data, our proposed method improved the 3-hour prediction accuracy by 20%, 1.5 times, and 8 times for high-range, medium-range, and low-range visibility, respectively. We also find the data imbalance will greatly affect the prediction accuracy for low-visibility data and use the weighted-loss and mix-up data augmentation strategy model in our model training. We improved the accuracy of low-visibility data by 1.2 times while the prediction results of high-visibility and medium-visibility data remained almost the same. In addition, we conduct several experiments to verify the effectiveness of our model design and the rationality of data augmentation.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Annotating Only at Definite Pixels- A Novel Weakly Supervised Semantic Segmentation Method for Sea Fog Recognition</title>
+      <link>https://BUPT-PRIS-727.github.io/publications/annotating-only-at-definite-pixels-a-novel-weakly-supervised-semantic-segmentation-method-for-sea-fog-recognition/</link>
+      <pubDate>Mon, 16 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://BUPT-PRIS-727.github.io/publications/annotating-only-at-definite-pixels-a-novel-weakly-supervised-semantic-segmentation-method-for-sea-fog-recognition/</guid>
+      <description>&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;
+&lt;p&gt;Sea fog recognition is a challenging and significant semantic segmentation task in remote sensing images. The fully supervised learning method relies on the pixel-level label, which is labor-intensive and time-consuming. Moreover, it is impossible to accurately annotate all pixels of the sea fog region due to the limited ability of the human eye to distinguish between low clouds and sea fog. In this paper, we propose a novel approach of point-based annotation for weakly supervised semantic segmentation with the auxiliary information of International Comprehensive Ocean-Atmosphere Data Set (ICOADS) visibility data. It only needs several definite points for both foreground and background, which significantly reduces the annotation cost of manpower. We conduct extensive experiments on Himawari-8 satellite remote sensing images to demonstrate the effectiveness of our annotation method. The mean intersection over union (mIoU) and overall recognition accuracy of our annotation method reach 82.72% and 95.18 %, respectively. Compared with the fully supervised learning method, the accuracy and the recognition rate of sea fog area are improved with a maximum increase of 7.69% and 9.69 %, respectively.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Identify, Guess and Reconstruct- Three Principles for Cloud Removal Task</title>
       <link>https://BUPT-PRIS-727.github.io/publications/identify-guess-and-reconstruct-three-principles-for-cloud-removal-task/</link>
       <pubDate>Mon, 16 Jan 2023 00:00:00 +0000</pubDate>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data imbalance | BUPT-PRIS-727</title>
+    <link>https://BUPT-PRIS-727.github.io/tag/data-imbalance/</link>
+      <atom:link href="https://BUPT-PRIS-727.github.io/tag/data-imbalance/index.xml" rel="self" type="application/rss+xml" />
+    <description>Data imbalance</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 19 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://BUPT-PRIS-727.github.io/media/icon_huf3e0a2e529153e638e98ead8993d51a7_215518_512x512_fill_lanczos_center_3.png</url>
+      <title>Data imbalance</title>
+      <link>https://BUPT-PRIS-727.github.io/tag/data-imbalance/</link>
+    </image>
+    
+    <item>
+      <title>Attention based Long Short-Term Memory Network for Coastal Visibility Forecast</title>
+      <link>https://BUPT-PRIS-727.github.io/publications/attention-based-long-short-term-memory-network-for-coastal-visibility-forecast/</link>
+      <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://BUPT-PRIS-727.github.io/publications/attention-based-long-short-term-memory-network-for-coastal-visibility-forecast/</guid>
+      <description>&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;
+&lt;p&gt;Visibility prediction in coastal areas has always been an important issue affecting the safety of residents and the efficiency of urban transportation. The visibility prediction methods currently used by meteorological centers are mainly based on the statistical forecast with relatively low prediction accuracy and high computational complexity. These methods cannot work well with large amounts of data. However, with the rapid development of deep learning technology, the use of deep learning has become a primary trend. In this paper, we propose our visibility prediction model based on (Long Short-Term Memory) LSTM network and self-attention mechanism. The model takes Medium-range Forecasts Data from European Centre for Mediumrange Weather Forecasting (ECMWF) which we use EC data to refer it for simplicity and observatory visibility data as input to predict and uses the LSTM network as the backbone to extract time series information. We also use self-attention mechanism to process the input data before the data is input to the model to let the model better focus on the valuable information for prediction. Compared with the predicted visibility in EC data, our proposed method improved the 3-hour prediction accuracy by 20%, 1.5 times, and 8 times for high-range, medium-range, and low-range visibility, respectively. We also find the data imbalance will greatly affect the prediction accuracy for low-visibility data and use the weighted-loss and mix-up data augmentation strategy model in our model training. We improved the accuracy of low-visibility data by 1.2 times while the prediction results of high-visibility and medium-visibility data remained almost the same. In addition, we conduct several experiments to verify the effectiveness of our model design and the rationality of data augmentation.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

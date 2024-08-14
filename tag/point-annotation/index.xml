@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>point annotation | BUPT-PRIS-727</title>
+    <link>https://BUPT-PRIS-727.github.io/tag/point-annotation/</link>
+      <atom:link href="https://BUPT-PRIS-727.github.io/tag/point-annotation/index.xml" rel="self" type="application/rss+xml" />
+    <description>point annotation</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 16 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://BUPT-PRIS-727.github.io/media/icon_huf3e0a2e529153e638e98ead8993d51a7_215518_512x512_fill_lanczos_center_3.png</url>
+      <title>point annotation</title>
+      <link>https://BUPT-PRIS-727.github.io/tag/point-annotation/</link>
+    </image>
+    
+    <item>
+      <title>Annotating Only at Definite Pixels- A Novel Weakly Supervised Semantic Segmentation Method for Sea Fog Recognition</title>
+      <link>https://BUPT-PRIS-727.github.io/publications/annotating-only-at-definite-pixels-a-novel-weakly-supervised-semantic-segmentation-method-for-sea-fog-recognition/</link>
+      <pubDate>Mon, 16 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://BUPT-PRIS-727.github.io/publications/annotating-only-at-definite-pixels-a-novel-weakly-supervised-semantic-segmentation-method-for-sea-fog-recognition/</guid>
+      <description>&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;
+&lt;p&gt;Sea fog recognition is a challenging and significant semantic segmentation task in remote sensing images. The fully supervised learning method relies on the pixel-level label, which is labor-intensive and time-consuming. Moreover, it is impossible to accurately annotate all pixels of the sea fog region due to the limited ability of the human eye to distinguish between low clouds and sea fog. In this paper, we propose a novel approach of point-based annotation for weakly supervised semantic segmentation with the auxiliary information of International Comprehensive Ocean-Atmosphere Data Set (ICOADS) visibility data. It only needs several definite points for both foreground and background, which significantly reduces the annotation cost of manpower. We conduct extensive experiments on Himawari-8 satellite remote sensing images to demonstrate the effectiveness of our annotation method. The mean intersection over union (mIoU) and overall recognition accuracy of our annotation method reach 82.72% and 95.18 %, respectively. Compared with the fully supervised learning method, the accuracy and the recognition rate of sea fog area are improved with a maximum increase of 7.69% and 9.69 %, respectively.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

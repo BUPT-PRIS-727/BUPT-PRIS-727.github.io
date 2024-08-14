@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Luming Xiao | BUPT-PRIS-727</title>
+    <link>https://BUPT-PRIS-727.github.io/authors/luming-xiao/</link>
+      <atom:link href="https://BUPT-PRIS-727.github.io/authors/luming-xiao/index.xml" rel="self" type="application/rss+xml" />
+    <description>Luming Xiao</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 12 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://BUPT-PRIS-727.github.io/media/icon_huf3e0a2e529153e638e98ead8993d51a7_215518_512x512_fill_lanczos_center_3.png</url>
+      <title>Luming Xiao</title>
+      <link>https://BUPT-PRIS-727.github.io/authors/luming-xiao/</link>
+    </image>
+    
+    <item>
+      <title>Domain Adaptation on Multiple Cloud Recognition From Different Types of Meteorological Satellite</title>
+      <link>https://BUPT-PRIS-727.github.io/publications/domain-adaptation-on-multiple-cloud-recognition-from-different-types-of-meteorological-satellite/</link>
+      <pubDate>Fri, 12 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://BUPT-PRIS-727.github.io/publications/domain-adaptation-on-multiple-cloud-recognition-from-different-types-of-meteorological-satellite/</guid>
+      <description>&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;
+&lt;p&gt;Meteorological satellites have become an indispensable meteorological tool for earth observation, as aiding in areas such as cloud detection, which has important guiding significance for maritime activities. However, it is time-consuming and labor-intensive to obtain fine-grained annotations provided by artificial experience or mature satellite cloud products for multi-spectral maritime cloud imageries, especially when new satellites are launched. Moreover, due to the data discrepancy caused by different detection bands, existing models have inadequate generalization performance compared to new satellites, and some cannot be directly migrated. In this paper, to reduce the data distribution’s discrepancy, an approach is presented based on unsupervised domain adaption method for marine cloud detection task based on Himawari-8 satellite data as a source domain and Fengyun-4 satellite data as a target domain. The goal of the proposed method is to leverage the representation power of adversarial learning to extract domain-invariant features, consisting of a segmentation model, a feature extract model for target domain, and a domain discriminator. In addition, aiming to remedy the discrepancy of detection bands, a band mapping module is designed to implement consistency between different bands. The result of the experiments demonstrated the effectiveness of the proposed method with a 7% improvement compared with the comparative experiment. We also designed a series of statistical experiments on different satellite data to further study cloudy perception representation, including data visualization experiment and cloud type statistics.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sundingkai Su | BUPT-PRIS-727</title>
+    <link>https://BUPT-PRIS-727.github.io/authors/sundingkai-su/</link>
+      <atom:link href="https://BUPT-PRIS-727.github.io/authors/sundingkai-su/index.xml" rel="self" type="application/rss+xml" />
+    <description>Sundingkai Su</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 21 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://BUPT-PRIS-727.github.io/media/icon_huf3e0a2e529153e638e98ead8993d51a7_215518_512x512_fill_lanczos_center_3.png</url>
+      <title>Sundingkai Su</title>
+      <link>https://BUPT-PRIS-727.github.io/authors/sundingkai-su/</link>
+    </image>
+    
+    <item>
+      <title>SeaMAE: Masked Pre-Training with Meteorological Satellite Imagery for Sea Fog Detection</title>
+      <link>https://BUPT-PRIS-727.github.io/publications/seamae/</link>
+      <pubDate>Mon, 21 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://BUPT-PRIS-727.github.io/publications/seamae/</guid>
+      <description>&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;
+&lt;p&gt;Sea fog detection (SFD) presents a significant challenge in the field of intelligent Earth observation, particularly in analyzing meteorological satellite imagery. Akin to various vision tasks, ImageNet pre-training is commonly used for pre-training SFD. However, in the context of multi-spectral meteorological satellite imagery, the initial step of deep learning has received limited attention. Recently, pre-training with Very High-Resolution (VHR) satellite imagery has gained increased popularity in remote-sensing vision tasks, showing the potential to replace ImageNet pre-training. However, it is worth noting that the meteorological satellite imagery applied in SFD, despite being an application of computer vision in remote sensing, differs greatly from VHR satellite imagery. To address the limitation of pre-training for SFD, this paper introduces a novel deep-learning paradigm to the meteorological domain driven by Masked Image Modeling (MIM). Our research reveals two key insights: (1) Pre-training with meteorological satellite imagery yields superior SFD performance compared to pre-training with nature imagery and VHR satellite imagery. (2) Incorporating the architectural characteristics of SFD models into a vanilla masked autoencoder (MAE) can augment the effectiveness of meteorological pre-training. To facilitate this research, we curate a pre-training dataset comprising 514,655 temporal multi-spectral meteorological satellite images, covering the Bohai Sea and Yellow Sea regions, which have the most sea fog occurrence. The longitude ranges from 115.00E to 128.75E, and the latitude ranges from 27.60N to 41.35N. Moreover, we introduce SeaMAE, a novel MAE that utilizes a Vision Transformer as the encoder and a convolutional hierarchical decoder, to learn meteorological representations. SeaMAE is pre-trained on this dataset and fine-tuned for SFD, resulting in state-of-the-art performance. For instance, using the ViT-Base as the backbone, SeaMAE pre-training which achieves 64.18% surpasses from-scratch learning, natural imagery pre-training, and VRH satellite imagery pre-training by 5.53% , 2.49% , and 2.21% , respectively, in terms of Intersection over Union of SFD.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

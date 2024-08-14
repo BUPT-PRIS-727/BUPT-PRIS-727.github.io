@@ -1,16 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Deep Learning | BUPT-PRIS-727</title>
+    <title>Deep learning | BUPT-PRIS-727</title>
     <link>https://BUPT-PRIS-727.github.io/tag/deep-learning/</link>
       <atom:link href="https://BUPT-PRIS-727.github.io/tag/deep-learning/index.xml" rel="self" type="application/rss+xml" />
-    <description>Deep Learning</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 16 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <description>Deep learning</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 19 Jan 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://BUPT-PRIS-727.github.io/media/icon_huf3e0a2e529153e638e98ead8993d51a7_215518_512x512_fill_lanczos_center_3.png</url>
-      <title>Deep Learning</title>
+      <title>Deep learning</title>
       <link>https://BUPT-PRIS-727.github.io/tag/deep-learning/</link>
     </image>
+    
+    <item>
+      <title>Attention based Long Short-Term Memory Network for Coastal Visibility Forecast</title>
+      <link>https://BUPT-PRIS-727.github.io/publications/attention-based-long-short-term-memory-network-for-coastal-visibility-forecast/</link>
+      <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://BUPT-PRIS-727.github.io/publications/attention-based-long-short-term-memory-network-for-coastal-visibility-forecast/</guid>
+      <description>&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;
+&lt;p&gt;Visibility prediction in coastal areas has always been an important issue affecting the safety of residents and the efficiency of urban transportation. The visibility prediction methods currently used by meteorological centers are mainly based on the statistical forecast with relatively low prediction accuracy and high computational complexity. These methods cannot work well with large amounts of data. However, with the rapid development of deep learning technology, the use of deep learning has become a primary trend. In this paper, we propose our visibility prediction model based on (Long Short-Term Memory) LSTM network and self-attention mechanism. The model takes Medium-range Forecasts Data from European Centre for Mediumrange Weather Forecasting (ECMWF) which we use EC data to refer it for simplicity and observatory visibility data as input to predict and uses the LSTM network as the backbone to extract time series information. We also use self-attention mechanism to process the input data before the data is input to the model to let the model better focus on the valuable information for prediction. Compared with the predicted visibility in EC data, our proposed method improved the 3-hour prediction accuracy by 20%, 1.5 times, and 8 times for high-range, medium-range, and low-range visibility, respectively. We also find the data imbalance will greatly affect the prediction accuracy for low-visibility data and use the weighted-loss and mix-up data augmentation strategy model in our model training. We improved the accuracy of low-visibility data by 1.2 times while the prediction results of high-visibility and medium-visibility data remained almost the same. In addition, we conduct several experiments to verify the effectiveness of our model design and the rationality of data augmentation.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Identify, Guess and Reconstruct- Three Principles for Cloud Removal Task</title>
@@ -33,6 +43,16 @@
     </item>
     
     <item>
+      <title>Domain Adaptation on Multiple Cloud Recognition From Different Types of Meteorological Satellite</title>
+      <link>https://BUPT-PRIS-727.github.io/publications/domain-adaptation-on-multiple-cloud-recognition-from-different-types-of-meteorological-satellite/</link>
+      <pubDate>Fri, 12 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://BUPT-PRIS-727.github.io/publications/domain-adaptation-on-multiple-cloud-recognition-from-different-types-of-meteorological-satellite/</guid>
+      <description>&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;
+&lt;p&gt;Meteorological satellites have become an indispensable meteorological tool for earth observation, as aiding in areas such as cloud detection, which has important guiding significance for maritime activities. However, it is time-consuming and labor-intensive to obtain fine-grained annotations provided by artificial experience or mature satellite cloud products for multi-spectral maritime cloud imageries, especially when new satellites are launched. Moreover, due to the data discrepancy caused by different detection bands, existing models have inadequate generalization performance compared to new satellites, and some cannot be directly migrated. In this paper, to reduce the data distribution’s discrepancy, an approach is presented based on unsupervised domain adaption method for marine cloud detection task based on Himawari-8 satellite data as a source domain and Fengyun-4 satellite data as a target domain. The goal of the proposed method is to leverage the representation power of adversarial learning to extract domain-invariant features, consisting of a segmentation model, a feature extract model for target domain, and a domain discriminator. In addition, aiming to remedy the discrepancy of detection bands, a band mapping module is designed to implement consistency between different bands. The result of the experiments demonstrated the effectiveness of the proposed method with a 7% improvement compared with the comparative experiment. We also designed a series of statistical experiments on different satellite data to further study cloudy perception representation, including data visualization experiment and cloud type statistics.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Sea fog detection based on unsupervised domain adaptation</title>
       <link>https://BUPT-PRIS-727.github.io/publications/sea-fog-detection-based-on-unsupervised-domain-adaptation/</link>
       <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
@@ -49,19 +69,6 @@
       <guid>https://BUPT-PRIS-727.github.io/publications/a-correlation-context-driven-method-for-sea-fog-detection-in-meteorological-satellite-imagery/</guid>
       <description>&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;
 &lt;p&gt;Sea fog detection is a challenging and essential issue in satellite remote sensing. Although conventional threshold methods and deep learning methods can achieve pixel-level classification, it is difficult to distinguish ambiguous boundaries and thin structures from the background. Considering the correlations between neighbor pixels and the affinities between superpixels, a correlation context-driven method for sea fog detection is proposed in this letter, which mainly consists of a two-stage superpixel-based fully convolutional network (SFCNet), named SFCNet. A fully connected Conditional Random Field (CRF) is utilized to model the dependencies between pixels. To alleviate the problem of high cloud occlusion, an attentive Generative Adversarial Network (GAN) is implemented for image enhancement by exploiting contextual information. Experimental results demonstrate that our proposed method achieves 91.65% mIoU and obtains more refined segmentation results, performing well in detecting fogs in small, broken bits and weak contrast thin structures, as well as detects more obscured parts.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Example Project</title>
-      <link>https://BUPT-PRIS-727.github.io/project/example/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://BUPT-PRIS-727.github.io/project/example/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
 </description>
     </item>
     
