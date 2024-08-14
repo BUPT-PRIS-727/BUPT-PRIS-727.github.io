@@ -14,11 +14,21 @@
     
     <item>
       <title>Weather2K: A Multivariate Spatio-Temporal Benchmark Dataset for Meteorological Forecasting Based on Real-Time Observation Data from Ground Weather Stations</title>
-      <link>https://BUPT-PRIS-727.github.io/dataset/weather2k/</link>
+      <link>https://BUPT-PRIS-727.github.io/publications/weather2k/</link>
       <pubDate>Tue, 21 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://BUPT-PRIS-727.github.io/dataset/weather2k/</guid>
+      <guid>https://BUPT-PRIS-727.github.io/publications/weather2k/</guid>
       <description>&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;
 &lt;p&gt;Weather forecasting is one of the cornerstones of meteorological work. In this paper, we present a new benchmark dataset named Weather2K, which aims to make up for the deficiencies of existing weather forecasting datasets in terms of real-time, reliability, and diversity, as well as the key bottleneck of data quality. To be specific, our Weather2K is featured from the following aspects: 1) Reliable and real-time data. The data is hourly collected from 2,130 ground weather stations covering an area of 6 million square kilometers. 2) Multivariate meteorological variables. 20 meteorological factors and 3 constants for position information are provided with a length of 40,896 time steps. 3) Applicable to diverse tasks. We conduct a set of baseline tests on time series forecasting and spatio-temporal forecasting. To the best of our knowledge, our Weather2K is the first attempt to tackle weather forecasting task by taking full advantage of the strengths of observation data from ground weather stations. Based on Weather2K, we further propose Meteorological Factors based Multi-Graph Convolution Network (MFMGCN), which can effectively construct the intrinsic correlation among geographic locations based on meteorological factors. Sufficient experiments show that MFMGCN improves both the forecasting performance and temporal robustness. We hope our Weather2K can significantly motivate researchers to develop efficient and accurate algorithms to advance the task of weather forecasting. The dataset can be available at &lt;a href=&#34;https://github.com/bycnfz/weather2k/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/bycnfz/weather2k/&lt;/a&gt; .&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Identify, Guess and Reconstruct- Three Principles for Cloud Removal Task</title>
+      <link>https://BUPT-PRIS-727.github.io/publications/identify-guess-and-reconstruct-three-principles-for-cloud-removal-task/</link>
+      <pubDate>Mon, 16 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://BUPT-PRIS-727.github.io/publications/identify-guess-and-reconstruct-three-principles-for-cloud-removal-task/</guid>
+      <description>&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;
+&lt;p&gt;Remote sensing images serve a significant role in earth observation to tackle climate change and post-disaster reconstruction concerns. However, optical images are obscured by clouds or haze, preventing precise earth observation; hence, cloud removal has been a hot topic among concerned scholars. The objective of this article is to make cloud removal more efficient and explicable by proposing three principles: identifying clouds, guessing objects beneath the clouds, and reconstructing the cloudy area. In addition, a modified dual contrastive learning Generative Adversarial Network is proposed based on these three principles by adding cloud detection and weight sharing strategy to obtain cloud semantics. In particular, we align two datasets by forming a quaternary sample pair that includes not only optical pictures and SAR images, but also region information for a more precise reconstruction. Our experiment results on the integrated dataset reveal the superiority of proposed method over previous cloud removal methods and the effectiveness of added modules through ablation experiments, with PSNR and SSIM values of 26.2 and 0.728, respectively.&lt;/p&gt;
 </description>
     </item>
     

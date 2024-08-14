@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jiaao Li | BUPT-PRIS-727</title>
+    <link>https://BUPT-PRIS-727.github.io/authors/jiaao-li/</link>
+      <atom:link href="https://BUPT-PRIS-727.github.io/authors/jiaao-li/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jiaao Li</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 11 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://BUPT-PRIS-727.github.io/media/icon_huf3e0a2e529153e638e98ead8993d51a7_215518_512x512_fill_lanczos_center_3.png</url>
+      <title>Jiaao Li</title>
+      <link>https://BUPT-PRIS-727.github.io/authors/jiaao-li/</link>
+    </image>
+    
+    <item>
+      <title>Weakly Supervised Sea Fog Detection in Remote Sensing Images via Prototype Learning</title>
+      <link>https://BUPT-PRIS-727.github.io/publications/weakly-supervised-sea-fog-detection-in-remote-sensing-images-via-prototype-learning/</link>
+      <pubDate>Wed, 11 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://BUPT-PRIS-727.github.io/publications/weakly-supervised-sea-fog-detection-in-remote-sensing-images-via-prototype-learning/</guid>
+      <description>&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;
+&lt;p&gt;Sea fog detection is a challenging and significant task in the field of remote sensing. Deep learning-based methods have shown promising potential, but require a large amount of pixel-level labeled data that are time-consuming and labor-intensive to acquire. To scale up the dataset and overcome the limitations of pixel-level annotation, we attempt to explore the existing knowledge from historical statistics for label-efficient sea fog detection. In this article, we propose an image-level weakly supervised sea fog detection dataset (WS-SFDD) and a novel weakly supervised sea fog detection framework via prototype learning, named ProCAM. According to the sea fog events recorded by the Marine Weather Review published quarterly by the National Meteorological Center of China, we collect the sea fog images from Himawari-8 satellite data and obtain free image-level labels to construct the dataset. However, with image-level annotations, the existing weakly supervised semantic segmentation (WSSS) methods mainly rely on class activation maps (CAMs) and have limitations when applied to such a specific scenario: 1) the pseudo-labels (PLs) mainly cover the most discriminative part of object regions that are incomplete; 2) the background is complex with varying atmospheric conditions, and it is difficult to distinguish sea fog from low clouds due to their high similarity in spectral characteristics; and 3) the co-occurring context, such as “sea,” distracts the model and thus degrades the performance. To address the above issues, in our proposed ProCAM, we first design a prototype reactivation (PRA) module that reactivates self-similar sea fog regions by pixel-to-prototype feature matching to improve the robustness and completeness of CAMs. Then, we develop a pixel-to-prototype contrastive (PPC) learning method to increase the distance between sea fog and background in the embedding space for learning more discriminative dense features. Finally, a self-augmented regularization (SAR) strategy is presented to decouple sea fog from its co-ocurring context, and thus avoid background interference. Extensive experiments on the WS-SFDD dataset demonstrate that our proposed method ProCAM achieves superior performance with an $F1$ score of 77.59% and a critical success index (CSI) of 63.39%. To the best of our knowledge, this is the first work to perform image-level weakly supervised sea fog detection in remote sensing images. The dataset and code are available at &lt;a href=&#34;https://github.com/yixianghuang/ProCAM&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/yixianghuang/ProCAM&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

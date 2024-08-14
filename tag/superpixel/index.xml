@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>superpixel | BUPT-PRIS-727</title>
+    <link>https://BUPT-PRIS-727.github.io/tag/superpixel/</link>
+      <atom:link href="https://BUPT-PRIS-727.github.io/tag/superpixel/index.xml" rel="self" type="application/rss+xml" />
+    <description>superpixel</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 26 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://BUPT-PRIS-727.github.io/media/icon_huf3e0a2e529153e638e98ead8993d51a7_215518_512x512_fill_lanczos_center_3.png</url>
+      <title>superpixel</title>
+      <link>https://BUPT-PRIS-727.github.io/tag/superpixel/</link>
+    </image>
+    
+    <item>
+      <title>A Correlation Context-Driven Method for Sea Fog Detection in Meteorological Satellite Imagery</title>
+      <link>https://BUPT-PRIS-727.github.io/publications/a-correlation-context-driven-method-for-sea-fog-detection-in-meteorological-satellite-imagery/</link>
+      <pubDate>Mon, 26 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://BUPT-PRIS-727.github.io/publications/a-correlation-context-driven-method-for-sea-fog-detection-in-meteorological-satellite-imagery/</guid>
+      <description>&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;
+&lt;p&gt;Sea fog detection is a challenging and essential issue in satellite remote sensing. Although conventional threshold methods and deep learning methods can achieve pixel-level classification, it is difficult to distinguish ambiguous boundaries and thin structures from the background. Considering the correlations between neighbor pixels and the affinities between superpixels, a correlation context-driven method for sea fog detection is proposed in this letter, which mainly consists of a two-stage superpixel-based fully convolutional network (SFCNet), named SFCNet. A fully connected Conditional Random Field (CRF) is utilized to model the dependencies between pixels. To alleviate the problem of high cloud occlusion, an attentive Generative Adversarial Network (GAN) is implemented for image enhancement by exploiting contextual information. Experimental results demonstrate that our proposed method achieves 91.65% mIoU and obtains more refined segmentation results, performing well in detecting fogs in small, broken bits and weak contrast thin structures, as well as detects more obscured parts.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

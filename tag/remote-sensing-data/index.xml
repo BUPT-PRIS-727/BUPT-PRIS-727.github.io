@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>remote sensing data | BUPT-PRIS-727</title>
+    <link>https://BUPT-PRIS-727.github.io/tag/remote-sensing-data/</link>
+      <atom:link href="https://BUPT-PRIS-727.github.io/tag/remote-sensing-data/index.xml" rel="self" type="application/rss+xml" />
+    <description>remote sensing data</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 03 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://BUPT-PRIS-727.github.io/media/icon_huf3e0a2e529153e638e98ead8993d51a7_215518_512x512_fill_lanczos_center_3.png</url>
+      <title>remote sensing data</title>
+      <link>https://BUPT-PRIS-727.github.io/tag/remote-sensing-data/</link>
+    </image>
+    
+    <item>
+      <title>The Eyes of the Gods: A Survey of Unsupervised Domain Adaptation Methods Based on Remote Sensing Data</title>
+      <link>https://BUPT-PRIS-727.github.io/publications/the-eyes-of-the-gods/</link>
+      <pubDate>Sat, 03 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://BUPT-PRIS-727.github.io/publications/the-eyes-of-the-gods/</guid>
+      <description>&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;
+&lt;p&gt;With the rapid development of the remote sensing monitoring and computer vision technology, the deep learning method has made a great progress to achieve applications such as earth observation, climate change and even space exploration. However, the model trained on existing data cannot be directly used to handle the new remote sensing data, and labeling the new data is also time-consuming and labor-intensive. Unsupervised Domain Adaptation (UDA) is one of the solutions to the aforementioned problems of labeled data defined as the source domain and unlabeled data as the target domain, i.e., its essential purpose is to obtain a well-trained model and tackle the problem of data distribution discrepancy defined as the domain shift between the source and target domain. There are a lot of reviews that have elaborated on UDA methods based on natural data, but few of these studies take into consideration thorough remote sensing applications and contributions. Thus, in this paper, in order to explore the further progress and development of UDA methods in remote sensing, based on the analysis of the causes of domain shift, a comprehensive review is provided with a fine-grained taxonomy of UDA methods applied for remote sensing data, which includes Generative training, Adversarial training, Self-training and Hybrid training methods, to better assist scholars in understanding remote sensing data and further advance the development of methods. Moreover, remote sensing applications are introduced by a thorough dataset analysis. Meanwhile, we sort out definitions and methodology introductions of partial, open-set and multi-domain UDA, which are more pertinent to real-world remote sensing applications. We can draw the conclusion that UDA methods in the field of remote sensing data are carried out later than those applied in natural images, and due to the domain gap caused by appearance differences, most of methods focus on how to use generative training (GT) methods to improve the model’s performance. Finally, we describe the potential deficiencies and further in-depth insights of UDA in the field of remote sensing.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
