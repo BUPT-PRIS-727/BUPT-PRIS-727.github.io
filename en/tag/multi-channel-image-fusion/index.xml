@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>multi-channel image fusion | BUPT-PRIS-727</title>
+    <link>https://BUPT-PRIS-727.github.io/en/tag/multi-channel-image-fusion/</link>
+      <atom:link href="https://BUPT-PRIS-727.github.io/en/tag/multi-channel-image-fusion/index.xml" rel="self" type="application/rss+xml" />
+    <description>multi-channel image fusion</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 31 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://BUPT-PRIS-727.github.io/media/icon_huf3e0a2e529153e638e98ead8993d51a7_215518_512x512_fill_lanczos_center_3.png</url>
+      <title>multi-channel image fusion</title>
+      <link>https://BUPT-PRIS-727.github.io/en/tag/multi-channel-image-fusion/</link>
+    </image>
+    
+    <item>
+      <title>Sea Fog Monitoring Method Based on Deep Learning Satellite Multi-channel Image Fusion</title>
+      <link>https://BUPT-PRIS-727.github.io/en/publication/sea-fog-monitoring-method-based-on-deep-learning-satellite-multi-channel-image-fusion/</link>
+      <pubDate>Fri, 31 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://BUPT-PRIS-727.github.io/en/publication/sea-fog-monitoring-method-based-on-deep-learning-satellite-multi-channel-image-fusion/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

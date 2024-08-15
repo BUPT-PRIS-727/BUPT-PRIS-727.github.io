@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Coastal visibility prediction | BUPT-PRIS-727</title>
+    <link>https://BUPT-PRIS-727.github.io/en/tag/coastal-visibility-prediction/</link>
+      <atom:link href="https://BUPT-PRIS-727.github.io/en/tag/coastal-visibility-prediction/index.xml" rel="self" type="application/rss+xml" />
+    <description>Coastal visibility prediction</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 19 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://BUPT-PRIS-727.github.io/media/icon_huf3e0a2e529153e638e98ead8993d51a7_215518_512x512_fill_lanczos_center_3.png</url>
+      <title>Coastal visibility prediction</title>
+      <link>https://BUPT-PRIS-727.github.io/en/tag/coastal-visibility-prediction/</link>
+    </image>
+    
+    <item>
+      <title>Attention based Long Short-Term Memory Network for Coastal Visibility Forecast</title>
+      <link>https://BUPT-PRIS-727.github.io/en/publication/attention-based-long-short-term-memory-network-for-coastal-visibility-forecast/</link>
+      <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://BUPT-PRIS-727.github.io/en/publication/attention-based-long-short-term-memory-network-for-coastal-visibility-forecast/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

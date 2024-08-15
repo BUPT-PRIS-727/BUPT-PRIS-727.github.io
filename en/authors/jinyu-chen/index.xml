@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jinyu Chen | BUPT-PRIS-727</title>
+    <link>https://BUPT-PRIS-727.github.io/en/authors/jinyu-chen/</link>
+      <atom:link href="https://BUPT-PRIS-727.github.io/en/authors/jinyu-chen/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jinyu Chen</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 05 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://BUPT-PRIS-727.github.io/media/icon_huf3e0a2e529153e638e98ead8993d51a7_215518_512x512_fill_lanczos_center_3.png</url>
+      <title>Jinyu Chen</title>
+      <link>https://BUPT-PRIS-727.github.io/en/authors/jinyu-chen/</link>
+    </image>
+    
+    <item>
+      <title>一种基于卫星图像的空气污染估计方法</title>
+      <link>https://BUPT-PRIS-727.github.io/en/project/%E4%B8%80%E7%A7%8D%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%92%8C%E5%8D%AB%E6%98%9F%E9%81%A5%E6%84%9F%E6%8A%80%E6%9C%AF%E7%9A%84%E6%B5%B7%E9%9B%BE%E6%A3%80%E6%B5%8B%E6%96%B9%E6%B3%95/</link>
+      <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://BUPT-PRIS-727.github.io/en/project/%E4%B8%80%E7%A7%8D%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%92%8C%E5%8D%AB%E6%98%9F%E9%81%A5%E6%84%9F%E6%8A%80%E6%9C%AF%E7%9A%84%E6%B5%B7%E9%9B%BE%E6%A3%80%E6%B5%8B%E6%96%B9%E6%B3%95/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

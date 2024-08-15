@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Haotian Yan | BUPT-PRIS-727</title>
+    <link>https://BUPT-PRIS-727.github.io/en/authors/haotian-yan/</link>
+      <atom:link href="https://BUPT-PRIS-727.github.io/en/authors/haotian-yan/index.xml" rel="self" type="application/rss+xml" />
+    <description>Haotian Yan</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 21 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://BUPT-PRIS-727.github.io/media/icon_huf3e0a2e529153e638e98ead8993d51a7_215518_512x512_fill_lanczos_center_3.png</url>
+      <title>Haotian Yan</title>
+      <link>https://BUPT-PRIS-727.github.io/en/authors/haotian-yan/</link>
+    </image>
+    
+    <item>
+      <title>SeaMAE: Masked Pre-Training with Meteorological Satellite Imagery for Sea Fog Detection</title>
+      <link>https://BUPT-PRIS-727.github.io/en/publication/seamae/</link>
+      <pubDate>Mon, 21 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://BUPT-PRIS-727.github.io/en/publication/seamae/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

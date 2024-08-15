@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zhanbei Cui | BUPT-PRIS-727</title>
+    <link>https://BUPT-PRIS-727.github.io/en/authors/zhanbei-cui/</link>
+      <atom:link href="https://BUPT-PRIS-727.github.io/en/authors/zhanbei-cui/index.xml" rel="self" type="application/rss+xml" />
+    <description>Zhanbei Cui</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 31 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://BUPT-PRIS-727.github.io/media/icon_huf3e0a2e529153e638e98ead8993d51a7_215518_512x512_fill_lanczos_center_3.png</url>
+      <title>Zhanbei Cui</title>
+      <link>https://BUPT-PRIS-727.github.io/en/authors/zhanbei-cui/</link>
+    </image>
+    
+    <item>
+      <title>Sea Fog Monitoring Method Based on Deep Learning Satellite Multi-channel Image Fusion</title>
+      <link>https://BUPT-PRIS-727.github.io/en/publication/sea-fog-monitoring-method-based-on-deep-learning-satellite-multi-channel-image-fusion/</link>
+      <pubDate>Fri, 31 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://BUPT-PRIS-727.github.io/en/publication/sea-fog-monitoring-method-based-on-deep-learning-satellite-multi-channel-image-fusion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>基于静止气象卫星影像序列的云雾自动判识方法及系统</title>
+      <link>https://BUPT-PRIS-727.github.io/en/project/%E5%9F%BA%E4%BA%8E%E9%9D%99%E6%AD%A2%E6%B0%94%E8%B1%A1%E5%8D%AB%E6%98%9F%E5%BD%B1%E5%83%8F%E5%BA%8F%E5%88%97%E7%9A%84%E4%BA%91%E9%9B%BE%E8%87%AA%E5%8A%A8%E5%88%A4%E8%AF%86%E6%96%B9%E6%B3%95%E5%8F%8A%E7%B3%BB%E7%BB%9F/</link>
+      <pubDate>Fri, 29 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://BUPT-PRIS-727.github.io/en/project/%E5%9F%BA%E4%BA%8E%E9%9D%99%E6%AD%A2%E6%B0%94%E8%B1%A1%E5%8D%AB%E6%98%9F%E5%BD%B1%E5%83%8F%E5%BA%8F%E5%88%97%E7%9A%84%E4%BA%91%E9%9B%BE%E8%87%AA%E5%8A%A8%E5%88%A4%E8%AF%86%E6%96%B9%E6%B3%95%E5%8F%8A%E7%B3%BB%E7%BB%9F/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

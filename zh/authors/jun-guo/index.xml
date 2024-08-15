@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jun Guo | BUPT-PRIS-727</title>
+    <link>https://BUPT-PRIS-727.github.io/zh/authors/jun-guo/</link>
+      <atom:link href="https://BUPT-PRIS-727.github.io/zh/authors/jun-guo/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jun Guo</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>zh-Hans</language><lastBuildDate>Wed, 19 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://BUPT-PRIS-727.github.io/media/icon_huf3e0a2e529153e638e98ead8993d51a7_215518_512x512_fill_lanczos_center_3.png</url>
+      <title>Jun Guo</title>
+      <link>https://BUPT-PRIS-727.github.io/zh/authors/jun-guo/</link>
+    </image>
+    
+    <item>
+      <title>M4Fog: A Global Multi-Regional, Multi-Modal, and Multi-Stage Dataset for Marine Fog Detection and Forecasting to Bridge Ocean and Atmosphere</title>
+      <link>https://BUPT-PRIS-727.github.io/zh/publication/m4fog/</link>
+      <pubDate>Wed, 19 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://BUPT-PRIS-727.github.io/zh/publication/m4fog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Weakly Supervised Sea Fog Detection in Remote Sensing Images via Prototype Learning</title>
+      <link>https://BUPT-PRIS-727.github.io/zh/publication/weakly-supervised-sea-fog-detection-in-remote-sensing-images-via-prototype-learning/</link>
+      <pubDate>Wed, 11 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://BUPT-PRIS-727.github.io/zh/publication/weakly-supervised-sea-fog-detection-in-remote-sensing-images-via-prototype-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Eyes of the Gods: A Survey of Unsupervised Domain Adaptation Methods Based on Remote Sensing Data</title>
+      <link>https://BUPT-PRIS-727.github.io/zh/publication/the-eyes-of-the-gods/</link>
+      <pubDate>Sat, 03 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://BUPT-PRIS-727.github.io/zh/publication/the-eyes-of-the-gods/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sea fog detection based on unsupervised domain adaptation</title>
+      <link>https://BUPT-PRIS-727.github.io/zh/publication/sea-fog-detection-based-on-unsupervised-domain-adaptation/</link>
+      <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://BUPT-PRIS-727.github.io/zh/publication/sea-fog-detection-based-on-unsupervised-domain-adaptation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Correlation Context-Driven Method for Sea Fog Detection in Meteorological Satellite Imagery</title>
+      <link>https://BUPT-PRIS-727.github.io/zh/publication/a-correlation-context-driven-method-for-sea-fog-detection-in-meteorological-satellite-imagery/</link>
+      <pubDate>Mon, 26 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://BUPT-PRIS-727.github.io/zh/publication/a-correlation-context-driven-method-for-sea-fog-detection-in-meteorological-satellite-imagery/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

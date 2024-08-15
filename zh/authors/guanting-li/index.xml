@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guanting Li | BUPT-PRIS-727</title>
+    <link>https://BUPT-PRIS-727.github.io/zh/authors/guanting-li/</link>
+      <atom:link href="https://BUPT-PRIS-727.github.io/zh/authors/guanting-li/index.xml" rel="self" type="application/rss+xml" />
+    <description>Guanting Li</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>zh-Hans</language><lastBuildDate>Tue, 05 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://BUPT-PRIS-727.github.io/media/icon_huf3e0a2e529153e638e98ead8993d51a7_215518_512x512_fill_lanczos_center_3.png</url>
+      <title>Guanting Li</title>
+      <link>https://BUPT-PRIS-727.github.io/zh/authors/guanting-li/</link>
+    </image>
+    
+    <item>
+      <title>一种基于气象卫星图像和深度迁移学习的海雾识别方法</title>
+      <link>https://BUPT-PRIS-727.github.io/zh/project/%E4%B8%80%E7%A7%8D%E5%9F%BA%E4%BA%8E%E6%B0%94%E8%B1%A1%E5%8D%AB%E6%98%9F%E5%9B%BE%E5%83%8F%E5%92%8C%E6%B7%B1%E5%BA%A6%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0%E7%9A%84%E6%B5%B7%E9%9B%BE%E8%AF%86%E5%88%AB%E6%96%B9%E6%B3%95/</link>
+      <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://BUPT-PRIS-727.github.io/zh/project/%E4%B8%80%E7%A7%8D%E5%9F%BA%E4%BA%8E%E6%B0%94%E8%B1%A1%E5%8D%AB%E6%98%9F%E5%9B%BE%E5%83%8F%E5%92%8C%E6%B7%B1%E5%BA%A6%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0%E7%9A%84%E6%B5%B7%E9%9B%BE%E8%AF%86%E5%88%AB%E6%96%B9%E6%B3%95/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

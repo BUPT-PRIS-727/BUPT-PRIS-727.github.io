@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yixiang Huang | BUPT-PRIS-727</title>
+    <link>https://BUPT-PRIS-727.github.io/en/authors/yixiang-huang/</link>
+      <atom:link href="https://BUPT-PRIS-727.github.io/en/authors/yixiang-huang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yixiang Huang</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 19 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://BUPT-PRIS-727.github.io/media/icon_huf3e0a2e529153e638e98ead8993d51a7_215518_512x512_fill_lanczos_center_3.png</url>
+      <title>Yixiang Huang</title>
+      <link>https://BUPT-PRIS-727.github.io/en/authors/yixiang-huang/</link>
+    </image>
+    
+    <item>
+      <title>M4Fog: A Global Multi-Regional, Multi-Modal, and Multi-Stage Dataset for Marine Fog Detection and Forecasting to Bridge Ocean and Atmosphere</title>
+      <link>https://BUPT-PRIS-727.github.io/en/publication/m4fog/</link>
+      <pubDate>Wed, 19 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://BUPT-PRIS-727.github.io/en/publication/m4fog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Weakly Supervised Sea Fog Detection in Remote Sensing Images via Prototype Learning</title>
+      <link>https://BUPT-PRIS-727.github.io/en/publication/weakly-supervised-sea-fog-detection-in-remote-sensing-images-via-prototype-learning/</link>
+      <pubDate>Wed, 11 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://BUPT-PRIS-727.github.io/en/publication/weakly-supervised-sea-fog-detection-in-remote-sensing-images-via-prototype-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>一种基于机器学习算法的有监督假彩色图像合成方法</title>
+      <link>https://BUPT-PRIS-727.github.io/en/project/%E4%B8%80%E7%A7%8D%E5%9F%BA%E4%BA%8E%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AE%97%E6%B3%95%E7%9A%84%E6%9C%89%E7%9B%91%E7%9D%A3%E5%81%87%E5%BD%A9%E8%89%B2%E5%9B%BE%E5%83%8F%E5%90%88%E6%88%90%E6%96%B9%E6%B3%95/</link>
+      <pubDate>Tue, 24 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://BUPT-PRIS-727.github.io/en/project/%E4%B8%80%E7%A7%8D%E5%9F%BA%E4%BA%8E%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AE%97%E6%B3%95%E7%9A%84%E6%9C%89%E7%9B%91%E7%9D%A3%E5%81%87%E5%BD%A9%E8%89%B2%E5%9B%BE%E5%83%8F%E5%90%88%E6%88%90%E6%96%B9%E6%B3%95/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Correlation Context-Driven Method for Sea Fog Detection in Meteorological Satellite Imagery</title>
+      <link>https://BUPT-PRIS-727.github.io/en/publication/a-correlation-context-driven-method-for-sea-fog-detection-in-meteorological-satellite-imagery/</link>
+      <pubDate>Mon, 26 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://BUPT-PRIS-727.github.io/en/publication/a-correlation-context-driven-method-for-sea-fog-detection-in-meteorological-satellite-imagery/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

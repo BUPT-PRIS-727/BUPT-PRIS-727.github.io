@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nan Li | BUPT-PRIS-727</title>
+    <link>https://BUPT-PRIS-727.github.io/zh/authors/nan-li/</link>
+      <atom:link href="https://BUPT-PRIS-727.github.io/zh/authors/nan-li/index.xml" rel="self" type="application/rss+xml" />
+    <description>Nan Li</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>zh-Hans</language><lastBuildDate>Fri, 06 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://BUPT-PRIS-727.github.io/media/icon_huf3e0a2e529153e638e98ead8993d51a7_215518_512x512_fill_lanczos_center_3.png</url>
+      <title>Nan Li</title>
+      <link>https://BUPT-PRIS-727.github.io/zh/authors/nan-li/</link>
+    </image>
+    
+    <item>
+      <title>一种基于深度学习和卫星遥感技术的海雾检测方法</title>
+      <link>https://BUPT-PRIS-727.github.io/zh/project/%E4%B8%80%E7%A7%8D%E5%9F%BA%E4%BA%8E%E5%8D%AB%E6%98%9F%E5%9B%BE%E5%83%8F%E7%9A%84%E7%A9%BA%E6%B0%94%E6%B1%A1%E6%9F%93%E4%BC%B0%E8%AE%A1%E6%96%B9%E6%B3%95/</link>
+      <pubDate>Fri, 06 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://BUPT-PRIS-727.github.io/zh/project/%E4%B8%80%E7%A7%8D%E5%9F%BA%E4%BA%8E%E5%8D%AB%E6%98%9F%E5%9B%BE%E5%83%8F%E7%9A%84%E7%A9%BA%E6%B0%94%E6%B1%A1%E6%9F%93%E4%BC%B0%E8%AE%A1%E6%96%B9%E6%B3%95/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

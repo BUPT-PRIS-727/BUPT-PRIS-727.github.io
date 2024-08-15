@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>semantic segmentation | BUPT-PRIS-727</title>
+    <link>https://BUPT-PRIS-727.github.io/en/tag/semantic-segmentation/</link>
+      <atom:link href="https://BUPT-PRIS-727.github.io/en/tag/semantic-segmentation/index.xml" rel="self" type="application/rss+xml" />
+    <description>semantic segmentation</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 16 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://BUPT-PRIS-727.github.io/media/icon_huf3e0a2e529153e638e98ead8993d51a7_215518_512x512_fill_lanczos_center_3.png</url>
+      <title>semantic segmentation</title>
+      <link>https://BUPT-PRIS-727.github.io/en/tag/semantic-segmentation/</link>
+    </image>
+    
+    <item>
+      <title>Annotating Only at Definite Pixels- A Novel Weakly Supervised Semantic Segmentation Method for Sea Fog Recognition</title>
+      <link>https://BUPT-PRIS-727.github.io/en/publication/annotating-only-at-definite-pixels-a-novel-weakly-supervised-semantic-segmentation-method-for-sea-fog-recognition/</link>
+      <pubDate>Mon, 16 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://BUPT-PRIS-727.github.io/en/publication/annotating-only-at-definite-pixels-a-novel-weakly-supervised-semantic-segmentation-method-for-sea-fog-recognition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Domain Adaptation on Multiple Cloud Recognition From Different Types of Meteorological Satellite</title>
+      <link>https://BUPT-PRIS-727.github.io/en/publication/domain-adaptation-on-multiple-cloud-recognition-from-different-types-of-meteorological-satellite/</link>
+      <pubDate>Fri, 12 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://BUPT-PRIS-727.github.io/en/publication/domain-adaptation-on-multiple-cloud-recognition-from-different-types-of-meteorological-satellite/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

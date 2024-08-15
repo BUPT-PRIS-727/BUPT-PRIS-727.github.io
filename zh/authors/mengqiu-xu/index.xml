@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>徐梦秋 | BUPT-PRIS-727</title>
+    <link>https://BUPT-PRIS-727.github.io/zh/authors/mengqiu-xu/</link>
+      <atom:link href="https://BUPT-PRIS-727.github.io/zh/authors/mengqiu-xu/index.xml" rel="self" type="application/rss+xml" />
+    <description>徐梦秋</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>zh-Hans</language><lastBuildDate>Wed, 19 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://BUPT-PRIS-727.github.io/zh/authors/mengqiu-xu/avatar_hu9117f083d5ddf6624984381484d6835c_35087_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>徐梦秋</title>
+      <link>https://BUPT-PRIS-727.github.io/zh/authors/mengqiu-xu/</link>
+    </image>
+    
+    <item>
+      <title>M4Fog: A Global Multi-Regional, Multi-Modal, and Multi-Stage Dataset for Marine Fog Detection and Forecasting to Bridge Ocean and Atmosphere</title>
+      <link>https://BUPT-PRIS-727.github.io/zh/publication/m4fog/</link>
+      <pubDate>Wed, 19 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://BUPT-PRIS-727.github.io/zh/publication/m4fog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MoANet: A Motion Attention Network for Sea Fog Detection in Time Series Meteorological Satellite Imagery</title>
+      <link>https://BUPT-PRIS-727.github.io/zh/publication/moanet-a-motion-attention-network-for-sea-fog-detection-in-time-series-meteorological-satellite-imagery/</link>
+      <pubDate>Fri, 08 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://BUPT-PRIS-727.github.io/zh/publication/moanet-a-motion-attention-network-for-sea-fog-detection-in-time-series-meteorological-satellite-imagery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Weakly Supervised Sea Fog Detection in Remote Sensing Images via Prototype Learning</title>
+      <link>https://BUPT-PRIS-727.github.io/zh/publication/weakly-supervised-sea-fog-detection-in-remote-sensing-images-via-prototype-learning/</link>
+      <pubDate>Wed, 11 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://BUPT-PRIS-727.github.io/zh/publication/weakly-supervised-sea-fog-detection-in-remote-sensing-images-via-prototype-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SeaMAE: Masked Pre-Training with Meteorological Satellite Imagery for Sea Fog Detection</title>
+      <link>https://BUPT-PRIS-727.github.io/zh/publication/seamae/</link>
+      <pubDate>Mon, 21 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://BUPT-PRIS-727.github.io/zh/publication/seamae/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Attention based Long Short-Term Memory Network for Coastal Visibility Forecast</title>
+      <link>https://BUPT-PRIS-727.github.io/zh/publication/attention-based-long-short-term-memory-network-for-coastal-visibility-forecast/</link>
+      <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://BUPT-PRIS-727.github.io/zh/publication/attention-based-long-short-term-memory-network-for-coastal-visibility-forecast/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Annotating Only at Definite Pixels- A Novel Weakly Supervised Semantic Segmentation Method for Sea Fog Recognition</title>
+      <link>https://BUPT-PRIS-727.github.io/zh/publication/annotating-only-at-definite-pixels-a-novel-weakly-supervised-semantic-segmentation-method-for-sea-fog-recognition/</link>
+      <pubDate>Mon, 16 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://BUPT-PRIS-727.github.io/zh/publication/annotating-only-at-definite-pixels-a-novel-weakly-supervised-semantic-segmentation-method-for-sea-fog-recognition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Identify, Guess and Reconstruct- Three Principles for Cloud Removal Task</title>
+      <link>https://BUPT-PRIS-727.github.io/zh/publication/identify-guess-and-reconstruct-three-principles-for-cloud-removal-task/</link>
+      <pubDate>Mon, 16 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://BUPT-PRIS-727.github.io/zh/publication/identify-guess-and-reconstruct-three-principles-for-cloud-removal-task/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Eyes of the Gods: A Survey of Unsupervised Domain Adaptation Methods Based on Remote Sensing Data</title>
+      <link>https://BUPT-PRIS-727.github.io/zh/publication/the-eyes-of-the-gods/</link>
+      <pubDate>Sat, 03 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://BUPT-PRIS-727.github.io/zh/publication/the-eyes-of-the-gods/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Domain Adaptation on Multiple Cloud Recognition From Different Types of Meteorological Satellite</title>
+      <link>https://BUPT-PRIS-727.github.io/zh/publication/domain-adaptation-on-multiple-cloud-recognition-from-different-types-of-meteorological-satellite/</link>
+      <pubDate>Fri, 12 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://BUPT-PRIS-727.github.io/zh/publication/domain-adaptation-on-multiple-cloud-recognition-from-different-types-of-meteorological-satellite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sea fog detection based on unsupervised domain adaptation</title>
+      <link>https://BUPT-PRIS-727.github.io/zh/publication/sea-fog-detection-based-on-unsupervised-domain-adaptation/</link>
+      <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://BUPT-PRIS-727.github.io/zh/publication/sea-fog-detection-based-on-unsupervised-domain-adaptation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>基于无监督域适应的不同类型气象卫星的多云识别系统</title>
+      <link>https://BUPT-PRIS-727.github.io/zh/project/%E5%9F%BA%E4%BA%8E%E6%97%A0%E7%9B%91%E7%9D%A3%E5%9F%9F%E9%80%82%E5%BA%94%E7%9A%84%E4%B8%8D%E5%90%8C%E7%B1%BB%E5%9E%8B%E6%B0%94%E8%B1%A1%E5%8D%AB%E6%98%9F%E7%9A%84%E5%A4%9A%E4%BA%91%E8%AF%86%E5%88%AB%E7%B3%BB%E7%BB%9F/</link>
+      <pubDate>Fri, 10 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://BUPT-PRIS-727.github.io/zh/project/%E5%9F%BA%E4%BA%8E%E6%97%A0%E7%9B%91%E7%9D%A3%E5%9F%9F%E9%80%82%E5%BA%94%E7%9A%84%E4%B8%8D%E5%90%8C%E7%B1%BB%E5%9E%8B%E6%B0%94%E8%B1%A1%E5%8D%AB%E6%98%9F%E7%9A%84%E5%A4%9A%E4%BA%91%E8%AF%86%E5%88%AB%E7%B3%BB%E7%BB%9F/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Correlation Context-Driven Method for Sea Fog Detection in Meteorological Satellite Imagery</title>
+      <link>https://BUPT-PRIS-727.github.io/zh/publication/a-correlation-context-driven-method-for-sea-fog-detection-in-meteorological-satellite-imagery/</link>
+      <pubDate>Mon, 26 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://BUPT-PRIS-727.github.io/zh/publication/a-correlation-context-driven-method-for-sea-fog-detection-in-meteorological-satellite-imagery/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
