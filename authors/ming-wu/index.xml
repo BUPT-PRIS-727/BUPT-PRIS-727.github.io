@@ -133,6 +133,22 @@
     </item>
     
     <item>
+      <title>基于无监督域适应的不同类型气象卫星的多云识别系统</title>
+      <link>https://BUPT-PRIS-727.github.io/project/%E5%9F%BA%E4%BA%8E%E6%97%A0%E7%9B%91%E7%9D%A3%E5%9F%9F%E9%80%82%E5%BA%94%E7%9A%84%E4%B8%8D%E5%90%8C%E7%B1%BB%E5%9E%8B%E6%B0%94%E8%B1%A1%E5%8D%AB%E6%98%9F%E7%9A%84%E5%A4%9A%E4%BA%91%E8%AF%86%E5%88%AB%E7%B3%BB%E7%BB%9F/</link>
+      <pubDate>Fri, 10 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://BUPT-PRIS-727.github.io/project/%E5%9F%BA%E4%BA%8E%E6%97%A0%E7%9B%91%E7%9D%A3%E5%9F%9F%E9%80%82%E5%BA%94%E7%9A%84%E4%B8%8D%E5%90%8C%E7%B1%BB%E5%9E%8B%E6%B0%94%E8%B1%A1%E5%8D%AB%E6%98%9F%E7%9A%84%E5%A4%9A%E4%BA%91%E8%AF%86%E5%88%AB%E7%B3%BB%E7%BB%9F/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>一种基于机器学习算法的有监督假彩色图像合成方法</title>
+      <link>https://BUPT-PRIS-727.github.io/project/%E4%B8%80%E7%A7%8D%E5%9F%BA%E4%BA%8E%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AE%97%E6%B3%95%E7%9A%84%E6%9C%89%E7%9B%91%E7%9D%A3%E5%81%87%E5%BD%A9%E8%89%B2%E5%9B%BE%E5%83%8F%E5%90%88%E6%88%90%E6%96%B9%E6%B3%95/</link>
+      <pubDate>Tue, 24 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://BUPT-PRIS-727.github.io/project/%E4%B8%80%E7%A7%8D%E5%9F%BA%E4%BA%8E%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AE%97%E6%B3%95%E7%9A%84%E6%9C%89%E7%9B%91%E7%9D%A3%E5%81%87%E5%BD%A9%E8%89%B2%E5%9B%BE%E5%83%8F%E5%90%88%E6%88%90%E6%96%B9%E6%B3%95/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>A Correlation Context-Driven Method for Sea Fog Detection in Meteorological Satellite Imagery</title>
       <link>https://BUPT-PRIS-727.github.io/publication/a-correlation-context-driven-method-for-sea-fog-detection-in-meteorological-satellite-imagery/</link>
       <pubDate>Mon, 26 Jul 2021 00:00:00 +0000</pubDate>
@@ -140,6 +156,38 @@
       <description>&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;
 &lt;p&gt;Sea fog detection is a challenging and essential issue in satellite remote sensing. Although conventional threshold methods and deep learning methods can achieve pixel-level classification, it is difficult to distinguish ambiguous boundaries and thin structures from the background. Considering the correlations between neighbor pixels and the affinities between superpixels, a correlation context-driven method for sea fog detection is proposed in this letter, which mainly consists of a two-stage superpixel-based fully convolutional network (SFCNet), named SFCNet. A fully connected Conditional Random Field (CRF) is utilized to model the dependencies between pixels. To alleviate the problem of high cloud occlusion, an attentive Generative Adversarial Network (GAN) is implemented for image enhancement by exploiting contextual information. Experimental results demonstrate that our proposed method achieves 91.65% mIoU and obtains more refined segmentation results, performing well in detecting fogs in small, broken bits and weak contrast thin structures, as well as detects more obscured parts.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>基于静止气象卫星影像序列的云雾自动判识方法及系统</title>
+      <link>https://BUPT-PRIS-727.github.io/project/%E5%9F%BA%E4%BA%8E%E9%9D%99%E6%AD%A2%E6%B0%94%E8%B1%A1%E5%8D%AB%E6%98%9F%E5%BD%B1%E5%83%8F%E5%BA%8F%E5%88%97%E7%9A%84%E4%BA%91%E9%9B%BE%E8%87%AA%E5%8A%A8%E5%88%A4%E8%AF%86%E6%96%B9%E6%B3%95%E5%8F%8A%E7%B3%BB%E7%BB%9F/</link>
+      <pubDate>Fri, 29 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://BUPT-PRIS-727.github.io/project/%E5%9F%BA%E4%BA%8E%E9%9D%99%E6%AD%A2%E6%B0%94%E8%B1%A1%E5%8D%AB%E6%98%9F%E5%BD%B1%E5%83%8F%E5%BA%8F%E5%88%97%E7%9A%84%E4%BA%91%E9%9B%BE%E8%87%AA%E5%8A%A8%E5%88%A4%E8%AF%86%E6%96%B9%E6%B3%95%E5%8F%8A%E7%B3%BB%E7%BB%9F/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>一种基于气象卫星图像和深度迁移学习的海雾识别方法</title>
+      <link>https://BUPT-PRIS-727.github.io/project/%E4%B8%80%E7%A7%8D%E5%9F%BA%E4%BA%8E%E6%B0%94%E8%B1%A1%E5%8D%AB%E6%98%9F%E5%9B%BE%E5%83%8F%E5%92%8C%E6%B7%B1%E5%BA%A6%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0%E7%9A%84%E6%B5%B7%E9%9B%BE%E8%AF%86%E5%88%AB%E6%96%B9%E6%B3%95/</link>
+      <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://BUPT-PRIS-727.github.io/project/%E4%B8%80%E7%A7%8D%E5%9F%BA%E4%BA%8E%E6%B0%94%E8%B1%A1%E5%8D%AB%E6%98%9F%E5%9B%BE%E5%83%8F%E5%92%8C%E6%B7%B1%E5%BA%A6%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0%E7%9A%84%E6%B5%B7%E9%9B%BE%E8%AF%86%E5%88%AB%E6%96%B9%E6%B3%95/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>一种基于深度学习和卫星遥感技术的海雾检测方法</title>
+      <link>https://BUPT-PRIS-727.github.io/project/%E4%B8%80%E7%A7%8D%E5%9F%BA%E4%BA%8E%E5%8D%AB%E6%98%9F%E5%9B%BE%E5%83%8F%E7%9A%84%E7%A9%BA%E6%B0%94%E6%B1%A1%E6%9F%93%E4%BC%B0%E8%AE%A1%E6%96%B9%E6%B3%95/</link>
+      <pubDate>Fri, 06 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://BUPT-PRIS-727.github.io/project/%E4%B8%80%E7%A7%8D%E5%9F%BA%E4%BA%8E%E5%8D%AB%E6%98%9F%E5%9B%BE%E5%83%8F%E7%9A%84%E7%A9%BA%E6%B0%94%E6%B1%A1%E6%9F%93%E4%BC%B0%E8%AE%A1%E6%96%B9%E6%B3%95/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>一种基于卫星图像的空气污染估计方法</title>
+      <link>https://BUPT-PRIS-727.github.io/project/%E4%B8%80%E7%A7%8D%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%92%8C%E5%8D%AB%E6%98%9F%E9%81%A5%E6%84%9F%E6%8A%80%E6%9C%AF%E7%9A%84%E6%B5%B7%E9%9B%BE%E6%A3%80%E6%B5%8B%E6%96%B9%E6%B3%95/</link>
+      <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://BUPT-PRIS-727.github.io/project/%E4%B8%80%E7%A7%8D%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%92%8C%E5%8D%AB%E6%98%9F%E9%81%A5%E6%84%9F%E6%8A%80%E6%9C%AF%E7%9A%84%E6%B5%B7%E9%9B%BE%E6%A3%80%E6%B5%8B%E6%96%B9%E6%B3%95/</guid>
+      <description></description>
     </item>
     
   </channel>
