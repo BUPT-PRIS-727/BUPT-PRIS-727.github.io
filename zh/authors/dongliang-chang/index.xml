@@ -17,7 +17,175 @@
       <link>https://BUPT-PRIS-727.github.io/zh/publication/m4fog/</link>
       <pubDate>Wed, 19 Jun 2024 00:00:00 +0000</pubDate>
       <guid>https://BUPT-PRIS-727.github.io/zh/publication/m4fog/</guid>
-      <description></description>
+      <description>&lt;h2 id=&#34;m4fog-dataset&#34;&gt;M4Fog dataset&lt;/h2&gt;
+&lt;h3 id=&#34;overall&#34;&gt;Overall&lt;/h3&gt;
+&lt;p&gt;We have collected nearly a decade&amp;rsquo;s worth of multi-modal data related to continuous marine fog stages from four series of geostationary meteorological satellites, along with meteorological observations and numerical analysis, covering 15 marine regions globally where maritime fog frequently occurs. Through pixel-level manual annotation by meteorological experts, we present the most comprehensive marine fog detection and forecasting dataset to date, named M4Fog, to bridge ocean and atmosphere. The dataset comprises 68,000 &amp;ldquo;super data cubes&amp;rdquo; along four dimensions: elements, latitude, longitude and time, with a temporal resolution of half an hour and a spatial resolution of 1 kilometer. Considering practical applications, we have defined and explored three meaningful tracks with multi-metric evaluation systems: static or dynamic marine fog detection, and spatio-temporal forecasting for cloud images.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./featured.png&#34; alt=&#34;arch&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Figure 1: The overall construction flowchart of the proposed super data cubes in M4Fog is as follows. A variety of meteorological data related to marine fog detection and forecasting is obtained from geostationary satellites, numerical analysis, and observation databases. The super data cube is then constructed along four dimensions: elements, latitude, longitude, and time. According to visibility (VV) and present weather (WW) from observatories, the presence and absence of marine fog are determined. Subsequently, M4Fog can support multiple meaningful tracks, including static/dynamic marine fog detection and spatio-temporal forecasting.&lt;/p&gt;
+&lt;h3 id=&#34;m4fog-data-processing&#34;&gt;M4Fog data-processing&lt;/h3&gt;
+&lt;p&gt;In this section, we present several types of meteorological data used in M4Fog, including stationary meteorological satellite data, numerical analysis data, and observation data. We primarily outline the data processing workflow from the RAW files to multi-dimensional Arrays.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The data-processing of geostationary satellites data&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In the M4Fog dataset, most of the stationary meteorological satellite data can be obtained from the Level 1 (L1) data of their imagers, such as the FY4A/4B and GOES series. However, the Meteo satellite data is sourced from the original Level 1.5 data. After processes such as reading, projection, and format conversion, we can acquire a three-dimensional array (C, H, W). Additionally, we provide synthesis functions for generating true or natural-color images for all kinds of satellites. [Refer to ‘Data_process/Satellites/’]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The data-processing of numerical analysis data&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Building on the multi-channel stationary meteorological satellite data, we further supplemented the dataset with land-sea masks and sea surface temperature (SST) numerical analysis data. Currently, the publicly available sea surface temperature data is daily, which means that for different times on the same day, the same SST file is provided. We also performed raw data reading, processing, and format conversion on the sea temperature data, ultimately resulting in a two-dimensional array (H, W). Additionally, we offer visualization methods for the sea temperature and other related data. [Refer to ‘Data_process/Numerical/’]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The data-processing of observation databases data&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Observation data is primarily obtained from offshore buoys, vessels, ocean observation platforms, and coastal observation stations, recording weather phenomena and related meteorological variables such as temperature, humidity, visibility, and weather codes. The original observational data formats are typically .000/.dat or compressed files. We filter the observational records corresponding to the image data based on time and geographic coordinates to create a new text file. It is important to note that for data that do not directly record fog-related meteorological conditions, secondary assessments will be conducted using meteorological principles. [Refer to ‘Data_process/Observations/’]&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./Fig_samples_0518.png&#34; alt=&#34;arch&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;m4fog-dataset-downloading&#34;&gt;M4Fog Dataset Downloading&lt;/h3&gt;
+&lt;p&gt;In order to facilitate data storage and download, we have separated and stored the elements in M4Fog Dataset. Dense data such as geostationary satellite images, sea surface temperature, and constant data are stored in arrays, while sparse data, like observations from monitoring stations, are stored in text format. We have published the data links and brief descriptions in the order of Tracks A to C.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Track A sub-dataset&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;We have released multiple sub-datasets in Track-A, which are divided based on regions and satellites. Each data cube is a labeled three-dimensional array with dimensions (C, H, W), based on multi-channel geostationary satellite data and supplemented with other data such as sea surface temperature. Dense data and sparse data are strictly aligned with the fog events in terms of time and space.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Himawari-8/9 data in Yellow and Bohai Sea:
+&lt;ul&gt;
+&lt;li&gt;1,802 data cubes (CxHxW = (16+1+1)x1024x1024), including Himawari 8/9, SST, Constant Dense Data.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pan.baidu.com/s/1aOw3TqzkS7E0ymLG0k2BhA?pwd=6vm7&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Baidu Netdisk&lt;/a&gt; (password: 6vm7)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Fengyun-4A Yellow and Bohai Sea:
+&lt;ul&gt;
+&lt;li&gt;1,724 data cubes (CxHxW = (14+1+1)x1024x1024), including Fengyun 4A, SST, Constant Dense Data.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pan.baidu.com/s/1FSNdZoZCZ4mdu9_ehMRLIA?pwd=wp9k&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Baidu Netdisk&lt;/a&gt; (password: wp9k)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;GOES-16 Multi-areas:
+&lt;ul&gt;
+&lt;li&gt;data cubes (CxHxW = (16+1+1)x1024x1024), including GOES-16, SST, Constant Dense Data.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pan.baidu.com/s/16RCgHSbdbNDgV8HMwKojPw?pwd=jv7g&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Baidu Netdisk&lt;/a&gt; (password: jv7g)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Track B sub-dataset&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Building on Track A, we constructed a time series dataset with a length of N+1 and dimensions of ((N+1),C,H,W) to enable dynamic marine fog monitoring. Additionally, we provided the corresponding satellite dataset&amp;rsquo;s Motion data, derived using visible bands and optical flow algorithms.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Himawari-8/9 data in Yellow and Bohai Sea:
+&lt;ul&gt;
+&lt;li&gt;1,696 data cubes ((N+1)xCxHxW = (1+1)x(16+1+1)x1024x1024), including Himawari 8/9, SST, Constant Dense Data and motion data.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pan.baidu.com/s/1q0s9eqAlydmyX6lu0znd3w?pwd=8q75&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Baidu Netdisk&lt;/a&gt; (password: 8q75)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Track C sub-dataset&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;We construct several sub-datasets using M4Fog data cubes, with each satellite having a single-region sub-dataset and a multi-region sub-dataset. The datasets are split by year to prevent test set leakage. Considering the timeliness required for practical forecasting applications, we have currently released prediction data at a lower resolution.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Himawari-8/9 data:
+&lt;ul&gt;
+&lt;li&gt;The length of data cube sequence is 8, T = T&amp;rsquo; = 4. The total number of multi-areas: 4,944.&lt;/li&gt;
+&lt;li&gt;Area1 (Yellow and Bohai Sea): 2,512 data cubes (CxHxW = 3x256x256), visible bands (0.47μm, 0.51μm, 0.64μm).&lt;/li&gt;
+&lt;li&gt;Area2 (East China Sea): 2,432 data cubes (CxHxW = 3x256x256), visible bands (0.47μm, 0.51μm, 0.64μm).&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pan.baidu.com/s/1OsN_nkJuwJDNun8N_O4iMA?pwd=mfcx&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Area 1 Baidu Netdisk&lt;/a&gt; (password: mfcx); &lt;a href=&#34;https://pan.baidu.com/s/1it_gK_v_RDLXRoxMX-X4Ow?pwd=99ci&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Multi-areas Baidu Netdisk&lt;/a&gt; (password: 99ci)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Fengyun-4A data:
+&lt;ul&gt;
+&lt;li&gt;The length of data cube sequence is 8, T = T&amp;rsquo; = 4. The total number of multi-areas: 3,931.&lt;/li&gt;
+&lt;li&gt;3,931 data cubes (CxHxW = 3x256x256), visible bands (0.47μm, 0.65μm) + Near-Infrared band (0.825μm).&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pan.baidu.com/s/1S4oQAw1klyFedaKl1gR7mA?pwd=ugsr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Baidu Netdisk&lt;/a&gt; (password: ugsr)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Meteo-multiareas data:
+&lt;ul&gt;
+&lt;li&gt;The length of data cube sequence is 8, T = T&amp;rsquo; = 4. The total number of multi-areas: 2,832.&lt;/li&gt;
+&lt;li&gt;2,832 data cubes (CxHxW = 3x256x256), natural-color images.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pan.baidu.com/s/1UO1uuihnczQOCeEnbWSsXA?pwd=vv3p&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Baidu Netdisk&lt;/a&gt; (password: vv3p)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Meteo-single-area data:
+&lt;ul&gt;
+&lt;li&gt;The length of data cube sequence is 8, T = T&amp;rsquo; = 4. The total number of all areas: 464*6 = 2,784.&lt;/li&gt;
+&lt;li&gt;Each area: training data (2020,2021) vs. test data (2022): 328 vs. 136 data cubes, natural-color images.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pan.baidu.com/s/1n9tj4l1qjTxmGApzxI3lgQ?pwd=1gng&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Baidu Netdisk&lt;/a&gt; (password: 1gng)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Other raleted-marine fog sub-dataset&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;We also provide additional processed data related to marine fog monitoring and forecasting as part of the M4Fog construction. This includes, for example, nearly a decade&amp;rsquo;s worth of ICOADS data used to analyze areas where marine fog occurs.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ICOADS data spanning 2015-2024
+&lt;ul&gt;
+&lt;li&gt;almost 9.5 million records spanning 2015-2024, which clearly observe or infer the presence or absence of marine fog globally.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pan.baidu.com/s/1_8hTqhCS5ZyrkCqvTrT7KQ?pwd=yfat&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Baidu Netdisk&lt;/a&gt; (password: yfat)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;m4fog-benchmarks&#34;&gt;M4Fog benchmarks&lt;/h2&gt;
+&lt;h3 id=&#34;track-a-benchmark&#34;&gt;Track-A benchmark&lt;/h3&gt;
+&lt;p&gt;Static marine fog detection refers to identifying and delineating marine fog areas at a specific moment based on super data cubes from that moment. It can support the input of either multi-channel geostationary satellite data alone or in combination with sea surface temperature and constant data. For more details on Track A, please refer to the Track A README. Here is an example of single GPU non-distributed training UNetpp on Himawari-8/9 dataset.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Training on H8/9&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;CUDA_VISIBLE_DEVICES&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt; python code/train_h8.py --dataset h8 --batch-size &lt;span class=&#34;m&#34;&gt;2&lt;/span&gt; --workers &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;se&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt;           --model aspp_unet --checkname aspp_unet &lt;span class=&#34;se&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt;           --lr 0.0001 &lt;span class=&#34;se&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt;           --epochs &lt;span class=&#34;m&#34;&gt;100&lt;/span&gt; &lt;span class=&#34;se&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt;           --weight-decay 0.05 &lt;span class=&#34;se&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt;           --model_savefolder /nas/cloud/H8/ &lt;span class=&#34;se&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;track-b-benchmark&#34;&gt;Track-B benchmark&lt;/h3&gt;
+&lt;p&gt;Track B dynamic marine fog detection refers to identifying and delineating marine fog areas at a specific moment by utilizing continuous super data cubes. We also provide the code for calculate the motion feature between adjacent time data. For more details on Track B, please refer to the Track B README. Here is an example of single GPU non-distributed training UNetpp on Himawari-8/9 dataset with motion data.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Training on H8/9 with motion data&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;CUDA_VISIBLE_DEVICES&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt; python code/train_h8_motion.py &lt;span class=&#34;se&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt;            --dataset h8_motion_v2 --batch-size &lt;span class=&#34;m&#34;&gt;16&lt;/span&gt; --workers &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;se&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt;            --model unet_motion_v2 --checkname unet_motion_v2 &lt;span class=&#34;se&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt;            --model_optimizer SGD &lt;span class=&#34;se&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt;            --lr 0.0001 &lt;span class=&#34;se&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt;            --epochs &lt;span class=&#34;m&#34;&gt;100&lt;/span&gt; &lt;span class=&#34;se&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt;            --weight-decay 0.05 &lt;span class=&#34;se&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt;            --model_savefolder /motion/01unet_concatdist_v2/ &lt;span class=&#34;se&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;track-c-benchmark&#34;&gt;Track-C benchmark&lt;/h3&gt;
+&lt;p&gt;For the experiments, the OpenSTL framework is selected as the foundation benchmark. Based on this codebase, we supply the process M4Fog dataset and generate corresponding data. We also provide MSE, MAE, SSIM and PSNR as evaluation metrics to measure model performance. For more details on Track C, please refer to the Track C README. Here is an example of single GPU non-distributed training PredRNN on Meteo-single-area dataset.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; OpenSTL-OpenSTL-Lightning
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Training on meteo&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;CUDA_VISIBLE_DEVICES&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt; python tools/train.py -d meteo -c configs/meteo/PredRNN.py --ex_name meteo_supply_predrnn
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Test on meteo&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;CUDA_VISIBLE_DEVICES&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt; python tools/test.py -d meteo -c configs/meteo/PredRNN.py --ex_name meteo_supply_predrnn --test
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Finetune on meteo&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;CUDA_VISIBLE_DEVICES&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt; python tools/train.py -d meteo -c configs/meteo/PredRNN.py --ex_name meteo_supply_finetue --ckpt_path meteo_supply_predrnn
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;citation&#34;&gt;Citation&lt;/h2&gt;
+&lt;p&gt;If you have any quesetions about the data download, please contact &lt;a href=&#34;mailto:xumengqiu@bupt.edu.cn&#34;&gt;xumengqiu@bupt.edu.cn&lt;/a&gt; or &lt;a href=&#34;mailto:wuming@bupt.edu.cn&#34;&gt;wuming@bupt.edu.cn&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If you are using this dataset or code for M4Fog please cite:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Xu M, Wu M, Chen K, et al. M4Fog: A Global Multi-Regional, Multi-Modal, and Multi-Stage Dataset for Marine Fog Detection and Forecasting to Bridge Ocean and Atmosphere[J]. arXiv preprint arXiv:2406.13317, 2024.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
     </item>
     
   </channel>
