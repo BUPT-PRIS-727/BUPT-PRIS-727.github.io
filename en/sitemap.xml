@@ -16,20 +16,6 @@
                 href="https://BUPT-PRIS-727.github.io/en/authors/"
                 />
   </url><url>
-    <loc>https://BUPT-PRIS-727.github.io/en/publication-type/article/</loc>
-    <lastmod>2024-06-19T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-Hans"
-                href="https://BUPT-PRIS-727.github.io/zh/publication-type/article/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://BUPT-PRIS-727.github.io/en/publication-type/article/"
-                />
-  </url><url>
     <loc>https://BUPT-PRIS-727.github.io/en/authors/bin-huang/</loc>
     <lastmod>2024-06-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -182,20 +168,6 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="https://BUPT-PRIS-727.github.io/en/authors/mingrui-xu/"
-                />
-  </url><url>
-    <loc>https://BUPT-PRIS-727.github.io/en/publication_types/</loc>
-    <lastmod>2024-06-19T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-Hans"
-                href="https://BUPT-PRIS-727.github.io/zh/publication_types/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://BUPT-PRIS-727.github.io/en/publication_types/"
                 />
   </url><url>
     <loc>https://BUPT-PRIS-727.github.io/en/publication/</loc>
@@ -406,6 +378,20 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="https://BUPT-PRIS-727.github.io/en/tag/optical-flow/"
+                />
+  </url><url>
+    <loc>https://BUPT-PRIS-727.github.io/en/publication_types/</loc>
+    <lastmod>2023-12-08T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-Hans"
+                href="https://BUPT-PRIS-727.github.io/zh/publication_types/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://BUPT-PRIS-727.github.io/en/publication_types/"
                 />
   </url><url>
     <loc>https://BUPT-PRIS-727.github.io/en/tag/sea-fog-detection/</loc>
